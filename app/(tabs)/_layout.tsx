@@ -1,15 +1,17 @@
 import { Tabs } from "expo-router";
 import { Briefcase, FolderOpen, GraduationCap, Home, User } from 'lucide-react-native';
 
+import { Colors } from '../../constants/theme';
+
 export default function TabLayout(){
     return (
         <Tabs 
         screenOptions={{
-            tabBarActiveTintColor: "#3498db",
+            tabBarActiveTintColor: Colors.cameo,
             tabBarInactiveTintColor: "#8e8e93",
             tabBarStyle: {
-                backgroundColor: "#1a1a1a",
-                borderTopColor: "#333"
+                backgroundColor: Colors.background,
+                borderTopColor: Colors.secondaryText
             },
             headerShown: false
         }}>

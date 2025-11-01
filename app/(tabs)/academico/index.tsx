@@ -1,5 +1,5 @@
 import { Text, View } from "react-native";
-import { globalStyles } from "../../globalStyles";
+import { globalStyles } from "../../_globalStyles";
 
 export default function Academico() {
   return (
