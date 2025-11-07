@@ -2,15 +2,24 @@ import { StyleSheet } from "react-native";
 
 import { Colors } from "../constants/theme";
 
-export const globalStyles = StyleSheet.create({
+const globalStyles = StyleSheet.create({
     text: {
         color: Colors.secondaryText,
         fontSize: 16
     },
-    container: {
+    textContainer: {
+        color: Colors.secondaryText,
+        fontSize: 16
+    },
+    bodyContainer: {
         flex: 1,
-        justifyContent: "center",
-        alignItems: "center",
         backgroundColor: Colors.background,
+    },
+    contentContainer: {
+        flex: 1,
+        padding: 16,
+        paddingTop: 42
     }
 });
+
+export default globalStyles;
