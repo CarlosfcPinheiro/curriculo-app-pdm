@@ -34,7 +34,6 @@ const styles = {
     title: {
         fontSize: 28,
         fontWeight: 'bold' as const,
-        marginBottom: 8,
         textAlign: 'center' as const
     },
     gradient: {
@@ -43,7 +42,8 @@ const styles = {
     },
     container: {
         flexDirection: 'row' as const,
-        height: 40
+        height: 40,
+        marginBottom: 20
     },
     maskContainer: {
         backgroundColor: 'transparent',

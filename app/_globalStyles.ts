@@ -3,9 +3,20 @@ import { StyleSheet } from "react-native";
 import { Colors } from "../constants/theme";
 
 const globalStyles = StyleSheet.create({
-    text: {
+    h3: {
+        fontSize: 20,
+        fontWeight: "500",
+        textAlign: "left" as const,
+    },
+    h2: {
+        fontSize: 24,
+        fontWeight: "600",
+        textAlign: "left" as const,
+    },
+    p: {
         color: Colors.secondaryText,
-        fontSize: 16
+        fontSize: 16,
+        textAlign: "left" as const,
     },
     textContainer: {
         color: Colors.secondaryText,
@@ -19,7 +30,7 @@ const globalStyles = StyleSheet.create({
         flex: 1,
         padding: 16,
         paddingTop: 42
-    }
+    },
 });
 
 export default globalStyles;

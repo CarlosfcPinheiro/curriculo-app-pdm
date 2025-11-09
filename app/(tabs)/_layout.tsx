@@ -6,14 +6,14 @@ import { Colors } from '../../constants/theme';
 export default function TabLayout(){
     return (
         <Tabs 
-        screenOptions={{
-            tabBarActiveTintColor: Colors.cameo,
-            tabBarInactiveTintColor: "#8e8e93",
-            tabBarStyle: {
-                backgroundColor: Colors.background,
-                borderTopColor: Colors.secondaryText
-            },
-            headerShown: false
+            screenOptions={{
+                tabBarActiveTintColor: Colors.cameo,
+                tabBarInactiveTintColor: "#8e8e93",
+                tabBarStyle: {
+                    backgroundColor: Colors.background,
+                    borderTopColor: Colors.secondaryText
+                },
+                headerShown: false
         }}>
             <Tabs.Screen
                 name="home/index"

@@ -20,7 +20,7 @@ export default function Home() {
       </View>
       <View style={styles.BoxTextName}>
         <Text style={styles.textName}>Carlos <Text style={styles.textLastname}>Pinheiro</Text></Text>
-        <Text style={[globalStyles.text, { fontStyle: 'italic' }]}>Desenvolvedor Full-Stack</Text>
+        <Text style={[globalStyles.p, { fontStyle: 'italic' }]}>Desenvolvedor Full-Stack</Text>
       </View>
     </View>
   )
