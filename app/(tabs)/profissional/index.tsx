@@ -17,7 +17,7 @@ export default function Profissional() {
             source={require('../../../assets/images/pico_mail.gif')}
             contentFit="cover"
             transition={1000}
-            style={{ width: 150, height: 150, alignSelf: 'center' }}
+            style={{ width: 200, height: 200, alignSelf: 'center' }}
           />
           <Text style={globalStyles.p}>Aqui dedico um espaço para apresentar minhas experiências profissionais do mercado de tecnologia.</Text>
           <View style={styles.textContainer}>
